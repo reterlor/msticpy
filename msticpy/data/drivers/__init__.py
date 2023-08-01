@@ -38,6 +38,7 @@ _ENVIRONMENT_DRIVERS = {
         "local_velociraptor_driver",
         "VelociraptorLogDriver",
     ),
+    DataEnvironment.MPSIEM: ("mpsiem_driver", "MPSIEMDriver"),
 }
 
 CUSTOM_PROVIDERS: Dict[str, type] = {}
